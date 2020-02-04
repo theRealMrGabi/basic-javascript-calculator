@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <div class="calc-screen">0</div>
+        </div>
+
+        <div class="calculator-keys">
+            <div class="first-row calc-keys">
+                <button type="button" value="6" class="number" name="six">6</button>
+                <button type="button" value="7" class="number" name="seven">7</button>
+                <button type="button" value="8" class="number" name="eight">8</button>
+                <button type="button" value="9" class="number" name="nine">9</button>
+              </div>
+        
+              <div class="second-row calc-keys">
+                <button type="button" value="2" class="number" name="two">2</button>
+                    <button type="button" value="3" class="number" name="three">3</button>
+                    <button type="button" value="4" class="number" name="four">4</button>
+                    <button type="button" value="5" class="number" name="five">5</button>
+              </div>
+        
+              <div class="third-row calc-keys"> 
+                <button type="button" value="/" class="operator" name="divide" data-action="divide">/</button>
+                <button type="button" value="0" class="number" name="zero">0</button>
+                <button type="button" value="1" class="number" name="one">1</button>
+                <button type="button" value="*" class="operator" name="mult" data-action="multiply">x</button>
+              </div>
+        
+              <div class="calc-btn calc-keys">
+                <button type="button" value="+" class="operator" name="add" data-action="add">+</button>
+                <!-- <button type="button" value="-" class="operator" name="minus" data-action="subtract">-</button> -->
+                <button type="button" value="." class="operator" name="decimal" data-action="decimal">.</button>
+                <button type="button" value="=" class="operator" name="equals" data-action="calculate">=</button>
+                <button type="button" value="AC" class="all-clear" name="clear" data-action="all-clear">AC</button>
+              </div>
+        </div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
